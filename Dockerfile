@@ -555,7 +555,8 @@ RUN python -m pip install \
     snowflake-connector-python \
     google-api-python-client \
     google-auth-httplib2 \
-    google-auth-oauthlib
+    google-auth-oauthlib \
+    oauth2client
 
 # Make /etc/passwd root-group-writeable so that user can be dynamically added by OpenShift
 # See https://github.com/apache/airflow/issues/9248
